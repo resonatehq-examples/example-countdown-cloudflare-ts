@@ -172,7 +172,7 @@ Paste the `wrangler.toml` at the root of this directory (replace the name with t
 
 ```toml
 name = "XXXXX-XXXXX-XXXX"
-main = "index.ts"
+main = "src/index.ts"
 compatibility_date = "2024-01-01"
 ```
 

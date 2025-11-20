@@ -1,4 +1,3 @@
-import { Resonate } from "@resonatehq/cloudflare";
 import type { Context } from "@resonatehq/sdk";
 
 export function* countdown(
@@ -26,10 +25,3 @@ async function notify(_ctx: Context, url: string, msg: string) {
 		},
 	});
 }
-
-
-const resonate = new Resonate();
-
-resonate.register("countdown", countdown);
-
-export default resonate.handlerHttp();
