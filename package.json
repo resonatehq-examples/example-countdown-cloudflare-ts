@@ -1,21 +1,24 @@
 {
-	"name": "example-countdown-cloudflare-ts",
-	"version": "1.0.0",
-	"type": "commonjs",
-	"private": true,
-	"scripts": {
-		"fmt": "npx @biomejs/biome check --write",
-		"dev": "wrangler dev src/index.ts",
-		"deploy": "wrangler deploy"
-	},
-	"devDependencies": {
-		"@types/bun": "latest",
-		"wrangler": "^4.49.1"
-	},
-	"peerDependencies": {
-		"typescript": "^5"
-	},
-	"dependencies": {
-		"@resonatehq/cloudflare": "^0.1.0"
-	}
+  "name": "example-countdown-cloudflare-ts",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "check": "biome check --write .",
+    "fmt": "biome format --write .",
+    "typecheck": "tsc --noEmit",
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "wrangler": "^4.49.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@resonatehq/cloudflare": "^0.1.4"
+  }
 }

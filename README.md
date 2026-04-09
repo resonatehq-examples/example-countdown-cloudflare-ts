@@ -79,6 +79,13 @@ Start the Cloudflare Worker. By default, the Cloudflare Worker will listen at `h
 npm run dev
 ```
 
+```yml
+name = "example-countdown-cloudflare-ts"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+```
+
 ### 1.5. Invoke the Countdown
 
 The examples use ntfy.sh to send notifications. Create a unique channel name (to avoid receiving notifications from other users) and open the ntfy.sh channel in your browser.
