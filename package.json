@@ -19,6 +19,6 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@resonatehq/cloudflare": "^0.1.4"
+    "@resonatehq/cloudflare": "^0.2.0"
   }
 }

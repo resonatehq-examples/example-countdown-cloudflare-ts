@@ -80,6 +80,7 @@ npm run dev
 ```
 
 ```yml
+<!--wrangler.toml-->
 name = "example-countdown-cloudflare-ts"
 main = "src/index.ts"
 compatibility_date = "2024-09-23"
