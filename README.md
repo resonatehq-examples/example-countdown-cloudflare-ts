@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.png">
+    <img alt="Countdown on Cloudflare — Resonate example" src="./assets/banner-dark.png">
+  </picture>
+</p>
+
 # Resonate Countdown on Cloudflare Workers
 
 A *Countdown* powered by the Resonate Typescript SDK and Cloudflare Workers. The countdown sends periodic notifications to [ntfy.sh](https://ntfy.sh/) at configurable intervals.
